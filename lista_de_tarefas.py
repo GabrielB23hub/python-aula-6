@@ -52,6 +52,7 @@ def finalizar():
         for x in lista:
             if x["titulo"] == tarefa:
                 x["concluída"] = "Sim"
+                print("Tarefa concluída com sucesso")
                 break
         else:
             print("Tarefa não encontrada.")
@@ -70,7 +71,7 @@ while True:
     print ("5 - Cadastrar tarefa nova")
     print ("6 - Finalizar tarefa")
     print ("7 - Remover tarefa")
-    print ("0 Sair")
+    print ("0 - Sair")
 
     opcao = input ("Escolha uma opção: ")
     
